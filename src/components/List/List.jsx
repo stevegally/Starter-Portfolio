@@ -45,7 +45,7 @@ const people = [
   
   export default function Example() {
     return (
-      <div className="flex w-full flex-col justify-center p-12 bg-card rounded-lg m-8">
+      <div className="flex w-full flex-col justify-center p-12 bg-card">
         <h1 className="text-2xl font-extrabold text-gray-900 dark:text-white mb-8">Work Experience</h1>
         <ul role="list" className="w-full divide-y divide-gray-100 dark:divide-white/5">
             {people.map((person) => (
