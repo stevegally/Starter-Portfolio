@@ -62,7 +62,7 @@ const people = [
                     </div>
                 </div>
                 <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end sm:justify-center">
-                    <p className="text-base text-gray-900 dark:text-white">{person.date}</p>
+                    <p className="text-base text-gray-600 dark:text-white">{person.date}</p>
                 </div>
             </li>
             ))}
