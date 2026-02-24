@@ -2,7 +2,7 @@ const projects = [
     {
     sector: 'Music',
     description: 'Making sure artists get paid for their work',
-    client: 'PPl',
+    client: 'PPl - Phonographic Performance Limited',
     date: 'Jan 2024 - Present',
     imageUrl:
     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -10,7 +10,7 @@ const projects = [
     {
     sector: 'Construction',
     description: 'Software for a competitive advantage',
-    client: 'Molson',
+    client: 'Molson Group',
     date: 'Jan 2024 - Present',
     imageUrl:
         'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -18,7 +18,7 @@ const projects = [
     {
     sector: 'Sports',
     description: 'The missed opportunity',
-    client: 'Global Cycling Network',
+    client: 'GCN - Global Cycling Network',
     date: 'Jan 2024 - Present',
     imageUrl:
         'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -49,7 +49,7 @@ const projects = [
                     />
                     <div className="mb-4 min-w-0 flex-auto">
                         <p className="mb-2 text-xs font-bold tracking-wider uppercase text-gray-600 dark:text-white">{project.sector}</p>
-                        <p className="mb-3 text-3xl font-semibold text-gray-900 dark:text-white">{project.description}</p>
+                        <p className="mb-3 text-3xl tracking-[-0.02em] font-semibold text-gray-900 dark:text-white">{project.description}</p>
                         <p className="text-base font-medium text-gray-600 dark:text-white">{project.client}</p>
                     </div>
                 </div>
