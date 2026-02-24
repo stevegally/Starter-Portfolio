@@ -1,11 +1,12 @@
 // Pricing.jsx — Page component that assembles pricing cards with plan data.
 
 import Header from '../components/Header/Header';
-import PricingCard from '../components/PricingCard/PricingCard';
 import Hero from '../components/Hero/Hero';
 import Statement from '../components/Statement/Statement';
+import PricingCard from '../components/PricingCard/PricingCard';
 import Projects from '../components/Projects/Projects';
 import List from '../components/List/List';
+import Footer from '../components/Footer/Footer';
 
 
 
@@ -41,6 +42,7 @@ function Pricing() {
             <Statement />
             <Projects />
             <List />
+            <Footer />
         </>
     );
 }
